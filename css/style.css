@@ -14,6 +14,12 @@ nav{
     color: #fff;
     padding: 10px 35px;
 }
+
+.contact:hover .btn-custom{
+    background-color: #FEB321;
+    color: #fff;
+}
+
 /* NAVIGATION */
 
 /* PART-1 */
@@ -40,7 +46,13 @@ nav{
     font-family: 'Cabin', sans-serif;
     padding: 25px 57px;
     border-radius: 7px;
+} 
+
+.part-1 a:hover{
+    background-color: #387AFF;
+    color: #fff;
 }
+
 /* PART-1 */
 
 /* PART-2 */
@@ -69,6 +81,11 @@ nav{
     background-color: #F1F5FA;
     padding: 10px;
     border-radius: 50%;
+}
+
+.list i:hover{
+    background-color: #387AFF;
+    color: #fff;
 }
 /* PART-2 */
 
@@ -128,6 +145,8 @@ nav{
 
 .services-link:hover{
     color: #fff;
+    text-decoration: none;
+    background-color: #06263F;
 }
 /* PART-4 */
 
@@ -153,6 +172,12 @@ nav{
     border-radius: 7px;
 }
 
+.part-5 a:hover{
+    background-color: #387AFF;
+    color: #fff;
+    text-decoration: none;
+}
+
 /* PART-5 */
 
 /* PART-6 */
@@ -160,6 +185,7 @@ nav{
 .part-6{
     background: url(../img/background.jpg);
     background-position: cover;
+    background-repeat: no-repeat;
 }
 
 .part-6 h2{
@@ -182,6 +208,12 @@ nav{
     padding: 17px 39px;
     border-radius: 7px;
     
+}
+
+.part-6 a:hover{
+    background-color: #387AFF;
+    color: #fff;
+    text-decoration: none;
 }
 
 .part-6 .carousel-p {
@@ -268,6 +300,9 @@ nav{
     font-weight: 700;
 }
 
+.faq_color_class{
+    color: #387AFF;
+}
 
 
 /* PART 7 */
@@ -291,11 +326,24 @@ nav{
     padding: 25px 50px;
 }
 
+.part-8 .btn-sign:hover{
+    background-color: #387AFF;
+    color: #fff;
+    text-decoration: none;
+}
+
 .part-8 .btn-more{
     background-color: #387AFF;
     color: #fff;
     padding: 25px 35px;
 }
+
+.part-8 .btn-more:hover{
+    background-color: #06263F;
+    color: #fff;
+    text-decoration: none;
+}
+
 /* PART 8 */
 
 /* PART 9 */
@@ -317,10 +365,10 @@ nav{
     font-weight: 600;
 }
 
-.div-lists li:hover{
+.footer-list li:hover{
     color: #0590E4;
-    cursor: pointer;
 }
+
 /* PART 9 */
 
 /* PART 10 */

@@ -35,3 +35,24 @@ for (let i = 0; i <= rightIcons.length - 1; i++) {
         leftContent[i].classList.add('d-none');
     })
 }
+
+// Creating the functionalities for the FAQ Section
+
+// const question1 = document.querySelector('.question-1');
+// const questionArrow = document.querySelector('.question-1-arrow');
+
+// question1.addEventListener('click', function() {
+//     question1.classList.toggle('faq_color_class');
+//     questionArrow.classList.toggle('fa-chevron-up');
+// })
+
+const allQuestions = document.querySelectorAll('.question');
+console.log(allQuestions);
+const allQuestionesArrow = document.querySelectorAll('.question-arrow');
+
+for(let i = 0; i < allQuestions.length; i++) {
+    allQuestions[i].addEventListener('click', function() {
+        allQuestions[i].classList.toggle('faq_color_class');
+        allQuestionesArrow[i].classList.toggle('fa-chevron-up');
+    })
+}
